@@ -1,16 +1,15 @@
 header {
   color: #ffe2c0;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-}
-body {
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.5) 50%
     ),
     url(https://t4.ftcdn.net/jpg/03/57/17/01/240_F_357170172_C8AjwE6AdRtmsuL7Y1WM10naZQ9JnOMp.jpg);
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -33,20 +32,18 @@ ul li a:hover {
 }
 
 #top {
-  background-color: rgba(245, 245, 220, 0.525);
+  background-color: #ffe2c0ac;
   margin-bottom: 10px;
   color: rgb(17, 52, 61);
 }
 #middle {
-  background-color: rgb(246, 189, 189, 0.525);
-  color: rgb(246, 223, 189);
-  border-color: #ddd;
+  background-color: rgba(233, 150, 122, 0.817);
+  color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
 
 #last {
-  background-color: rgb(92, 163, 183, 0.525);
-  border-color: #ddd;
+  background-color: rgba(92, 163, 183, 0.635);
   color: #ececec;
 }
 #top,
@@ -54,7 +51,11 @@ ul li a:hover {
 #last {
   border-radius: 10px;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#top h2,
+#middle h2,
+#last h2 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container {
@@ -62,14 +63,17 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  width: 1250px;
+  height: 430px;
 }
 
 #top img,
 #middle img,
 #last img {
-  width: 400px;
   height: 250px;
   text-align: left;
+  max-width: 300px;
+  gap: 16px;
 }
 
 #cards-section h2 {
@@ -110,10 +114,10 @@ ul li a:hover {
 footer {
   background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 60%,
       rgba(0, 0, 0, 0.5) 50%
     ),
-    url(https://wallpapercg.com/download/strawberries-4k-wallpaper--12714.jpg);
+    url(https://t4.ftcdn.net/jpg/03/57/17/01/240_F_357170172_C8AjwE6AdRtmsuL7Y1WM10naZQ9JnOMp.jpg);
   background-position: center;
   background-size: cover;
   padding: 20px;
@@ -126,11 +130,11 @@ footer {
 }
 
 .footer-content a {
-  color: rgb(179, 203, 185);
+  color: #ffe2c0;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .footer-content a:hover {
-  color: rgb(59, 87, 197);
+  color: rgba(197, 197, 59, 0.667);
 }
