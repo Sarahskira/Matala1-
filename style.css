@@ -73,7 +73,6 @@ ul li a:hover {
   height: 250px;
   text-align: left;
   max-width: 300px;
-  gap: 16px;
 }
 
 #cards-section h2 {
@@ -84,9 +83,7 @@ ul li a:hover {
 .card {
   width: 200px;
   height: 320px;
-  border: 1px solid #ddd;
   border-radius: 8px;
-  overflow: hidden;
   margin: 20px;
   padding: 15px;
   background-color: rgba(118, 69, 59, 0.393);
@@ -107,7 +104,6 @@ ul li a:hover {
 .cards-container {
   display: flex;
   justify-content: center;
-  justify-items: center;
   flex-wrap: wrap;
 }
 
@@ -119,14 +115,8 @@ footer {
     ),
     url(https://t4.ftcdn.net/jpg/03/57/17/01/240_F_357170172_C8AjwE6AdRtmsuL7Y1WM10naZQ9JnOMp.jpg);
   background-position: center;
-  background-size: cover;
   padding: 20px;
   text-align: center;
-}
-
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .footer-content a {
