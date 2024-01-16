@@ -35,23 +35,24 @@ ul li a:hover {
 #top {
   background-color: #ffe2c0ac;
   margin-bottom: 10px;
-  color: rgb(17, 52, 61);
 }
 #middle {
   background-color: rgba(233, 150, 122, 0.817);
-  color: rgb(0, 0, 0);
+
   margin-bottom: 10px;
 }
 
 #last {
   background-color: rgba(92, 163, 183, 0.635);
-  color: #ececec;
 }
 #top,
 #middle,
 #last {
   border-radius: 10px;
   font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #top h2,
 #middle h2,
@@ -64,8 +65,8 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 1250px;
-  height: 430px;
+  margin: 20px;
+  padding: 20px;
 }
 
 #top img,
